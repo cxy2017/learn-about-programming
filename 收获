@@ -1,0 +1,43 @@
+1.运行时异常和非运行时异常的区别?
+答:运行时异常是在运行时才发生的异常,不需要处理,不会在编译时检查
+    常见的运行时异常有:ClassCastException IndexOutOfBoundsException NullPointerException ArrayStoreException
+
+    非运行时异常在编译时会检查,必须要对异常进行处理,可以抛出也可以try catch处理
+    常见的非运行时异常有IO异常和sql异常:IOException FileNotFoundException SQLException
+2.throw和throw的区别?
+答:throw 出现在方法体中,是抛出一个异常实例,在抛出异常时用,当方法在运行时遇到异常情况时将异常信息封装成异常对象然后throw.
+        throw可以中断程序运行代替return
+   throws出现在方法声明中,是声明抛出异常,用于方法参数列表后面,表示该方法可能抛出异常,允许throws抛出多个异常.
+3.什么是异常链?
+答:"异常链"是java中非常流行的异常处理概念,是指进行一个异常处理时抛出另外一个异常,由此产生了一条异常链;该技术大多数用于
+将受检查异常封装成非受检查异常.或RunTimeException.
+4.
+异常总结:
+    (1) java.lang.Error:Throwable的子类,用于标记严重错误,合理的应用程序不应该去try/catch这种错误,绝大多数错误都是
+    非正常的,根本就不应该出现.
+        java.lang.Exception:Throwable的子类,用于指示一种合理的程序向要catch的条件,即它只是一种程序运行的条件,而非严重错误,
+    并且鼓励用户程序去catch它.
+    (2) Error和RunTimeException及其子类都是未检查异常(unchecked Exception),而所有其他的Exception类都是检查了的异常
+    (checked Exception).
+        checked exception:通常都是从一个可恢复的程序中抛出来的,并且最好能够从这种异常中使程序恢复.例如
+     FileNotFoundException ParseException等,检查了的异常发生在编译时期,必须throws抛出或try/catch捕获,否则会编译不通过.
+        unchecked exception:是一切正常情况下本不该发生的异常,但确实发生了,发生在运行时期,具有不确定性,主要是程序的
+     逻辑问题引起的,例如IndexOutOfBoundsException ClassCastException等;从语言本身角度讲,不应该去catch这类异常,虽然能够
+     从RunTimeException这类异常中catch并恢复程序,但并不鼓励终端程序员这么做,因为完全没必要,因为,这类错误本身就是bug,
+     应该被修复,出现此类错误程序就应该立即停止执行,因此,面对Error和RunTimeException这类错误时,应该立即停止程序执行,
+     不应该try/catch,而是查明原因修改编码逻辑
+2017/11/1
+1.对象序列化的主要应用?
+答:将数据分解成字节流,以便存储在文件中或在网络上传输
+    对象序列化可以实现分布式对象
+    对象序列化不仅保留一个对象的数据,而且递归保存对象引用的每一个对象数据.可以将整个对象层次写入字节流中,
+    可以保存在文件中或在网络上传输;利用对象序列化可以进行对象深复制,即复制对象本身即引用的对象本身,序列化一个
+    对象可能得到整个对象序列.
+2.如何实现序列化？
+答:只有实现过Serializable接口的类的实例才能序列化,Serializable接口是可序列化的标记,实现序列化,还需要ObjectOutputStream流
+3.序列化时流对象ObjectOutputStream的使用方法
+答:首先先创建一个FileOutpuStream文件输出流对象,然后将该对象传入ObjectOutputStream对象构造器中,调用对象输出流对象的
+    writeObject方法,把需要存储的对象传入该方法,最后关闭对象输出流.运行程序
+
+
+

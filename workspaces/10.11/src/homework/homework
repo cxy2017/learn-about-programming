@@ -1,0 +1,20 @@
+0.
+package charactor;
+
+public class Hero {
+	public String name;
+	protected float hp;
+
+	public static void main(String[] args) {
+		ADHero ad = new ADHero();
+		Hero h = ad;
+		AD adi = (AD) h;
+		APHero ap = (APHero) adi;
+	}
+}
+如上代码能否转换成功？如果不能，哪一行会报错，为什么？
+答:假设ADHero和AD类存在,且ADHero为AD和Hero的子类,它们都在同一包中;
+   不能,在 AD adi = (AD) h;这一行报错,因为上一行是ADHero向上转型至Hero类,Hero和AD并无子父类关系所以无法强转,
+
+
+1.归并排序算法和折半查找算法的Java实现（最好不要参考他人，自己先实现，再与别人对比）

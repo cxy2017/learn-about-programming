@@ -1,0 +1,21 @@
+﻿###git遇到的问题####
+1.error: src refspec master does not match any.
+    引起该错误的原因是，目录中没有文件，空目录是不能提交上去的
+解决方案:touch README
+         git add README
+         git commit -m 'first commit'
+         git push origin master
+ 
+2.git提交到远程命令: 
+		git add 文件名或路径
+		git commit -m "注释"
+		git push
+3.使用中如何修改.ignore生效
+		git rm -r --cached .  #清除缓存  
+		git add . #重新trace file  
+		git commit -m "update .gitignore" #提交和注释  
+		git push origin master #可选，如果需要同步到remote上的话
+4.执行git push出现"Everything up-to-date"
+		1）没有git add .
+		2）没有git commit -m "提交信息"
+	如果上面两个步骤都成功执行，还出现这个错误是因为创建的目录下是空的，目录下必须有文件才能git push上传成功。
