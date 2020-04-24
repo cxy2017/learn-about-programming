@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/chapter10-platform-tests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/config-repo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spmia-chapter1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spmia-chapter10" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spmia-chapter2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spmia-chapter3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spmia-chapter4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spmia-chapter5" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spmia-chapter6" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spmia-chapter7" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spmia-chapter8" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spmia-chapter9" vcs="Git" />
+  </component>
+</project>

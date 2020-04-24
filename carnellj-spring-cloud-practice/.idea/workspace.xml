@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="42d3d973-b848-4a11-a458-b589834e1188" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spmia-chapter1/mydemo/src/main/java/com/cxy/thread/DeadLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spmia-chapter1/mydemo/src/main/java/com/cxy/thread/ThreadSafeSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spmia-chapter1/simpleservice/src/main/java/com/thoughtmechanix/simpleservice/BeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spmia-chapter1/simpleservice/src/main/java/com/thoughtmechanix/simpleservice/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spmia-chapter1/simpleservice/src/main/java/com/thoughtmechanix/simpleservice/InjectClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spmia-chapter1/simpleservice/src/main/java/com/thoughtmechanix/simpleservice/InterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spmia-chapter1/simpleservice/src/main/java/com/thoughtmechanix/simpleservice/io/NIOPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/config-repo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spmia-chapter1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spmia-chapter1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spmia-chapter1/simpleservice/src/main/java/com/thoughtmechanix/simpleservice/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spmia-chapter1/simpleservice/src/main/java/com/thoughtmechanix/simpleservice/Application.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/spmia-chapter6/organization-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter7/eurekasvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter5/eurekasvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter6/confsvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter7/organization-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter1/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter6/orgservice-new/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter10/authentication-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter10/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter6/specialroutes-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter9/confsvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter7/confsvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter8/eurekasvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter4/eurekasvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter2/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter9/licensing-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter5/licensing-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter8/confsvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter3/licensing-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter5/organization-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter3/confsvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter7/licensing-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter1/simpleservice/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter9/eurekasvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter8/organization-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter4/licensing-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter8/zuulsvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter4/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter10/confsvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter9/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter7/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter6/zuulsvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter9/zuulsvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter7/orgservice-new/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter8/licensing-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter7/authentication-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter8/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter9/organization-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter10/organization-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter5/confsvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter9/zipkinsvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter7/zuulsvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter10/zuulsvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter6/eurekasvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter10/licensing-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter4/organization-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter3/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter10/eurekasvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter6/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter6/licensing-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter4/confsvr/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter5/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter7/specialroutes-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter2/licensing-service/target/" />
+    <ignored path="$PROJECT_DIR$/spmia-chapter1/mydemo/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spmia-chapter1/mydemo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spmia-chapter1/mydemo/src/main/java/com/cxy/thread/DeadLockDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spmia-chapter1/mydemo/src/main/java/com/cxy/thread/ThreadSafeSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/soft/softinstall/Java/jdk1.8.0_192/src.zip!/java/util/concurrent/locks/Lock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="161" column="21" lean-forward="true" selection-start-line="161" selection-start-column="21" selection-end-line="161" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://D:/soft/softinstall/Java/jdk1.8.0_192/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1857">
+              <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spmia-chapter1" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/spmia-chapter1/mydemo/src/main/java/com/cxy/thread/DeadLockDemo.java" />
+        <option value="$PROJECT_DIR$/spmia-chapter1/mydemo/src/main/java/com/cxy/thread/ThreadSafeSingleton.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/codingtool/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\codingtool\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="25" />
+    <option name="width" value="1345" />
+    <option name="height" value="670" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="carnellj-spring-cloud-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spmia-chapter1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carnellj-spring-cloud-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spmia-chapter1" type="462c0819:PsiDirectoryNode" />
+              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carnellj-spring-cloud-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spmia-chapter1" type="462c0819:PsiDirectoryNode" />
+              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carnellj-spring-cloud-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spmia-chapter1" type="462c0819:PsiDirectoryNode" />
+              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carnellj-spring-cloud-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spmia-chapter1" type="462c0819:PsiDirectoryNode" />
+              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carnellj-spring-cloud-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spmia-chapter1" type="462c0819:PsiDirectoryNode" />
+              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587728713477" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DeadLockDemo">
+    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cxy.thread.DeadLockDemo" />
+      <module name="mydemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cxy.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="authentication-service (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thoughtmechanix.authentication.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="specialroutesservice (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thoughtmechanix.specialroutes.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="licensing-service (9)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thoughtmechanix.licenses.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="simple-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thoughtmechanix.simpleservice.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="organization-service (4)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thoughtmechanix.organization.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="configurationserver (5)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thoughtmechanix.confsvr.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eurekasvr (5)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thoughtmechanix.eurekasvr.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkinsvr" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thoughtmechanix.zipkinsvr.ZipkinServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuulsvr (4)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thoughtmechanix.zuulsvr.ZuulServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DeadLockDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42d3d973-b848-4a11-a458-b589834e1188" name="Default Changelist" comment="" />
+      <created>1587722173476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587722173476</updated>
+      <workItem from="1587722174994" duration="3719000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3719000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run Dashboard" weight="0.32997987" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24748491" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993964" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spmia-chapter1/mydemo/src/main/java/com/cxy/thread/DeadLockDemo.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Thread.currentThread()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spmia-chapter1/mydemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/softinstall/Java/jdk1.8.0_192/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="436" column="37" selection-start-line="436" selection-start-column="37" selection-end-line="436" selection-end-column="37" />
+          <folding>
+            <element signature="e#15020#15021#0" expanded="true" />
+            <element signature="e#15084#15085#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spmia-chapter1/mydemo/src/main/java/com/cxy/thread/DeadLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spmia-chapter1/mydemo/src/main/java/com/cxy/thread/ThreadSafeSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/softinstall/Java/jdk1.8.0_192/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="161" column="21" lean-forward="true" selection-start-line="161" selection-start-column="21" selection-end-line="161" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/softinstall/Java/jdk1.8.0_192/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1857">
+          <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>authentication-service (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

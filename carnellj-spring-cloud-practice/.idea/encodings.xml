@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/spmia-chapter1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter1/mydemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter1/simpleservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter10" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter10/authentication-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter10/confsvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter10/eurekasvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter10/licensing-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter10/organization-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter10/zuulsvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter2/licensing-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter3/confsvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter3/licensing-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter4/confsvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter4/eurekasvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter4/licensing-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter4/organization-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter5" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter5/confsvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter5/eurekasvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter5/licensing-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter5/organization-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter6" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter6/confsvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter6/eurekasvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter6/licensing-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter6/organization-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter6/orgservice-new" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter6/specialroutes-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter6/zuulsvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter7" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter7/authentication-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter7/confsvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter7/eurekasvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter7/licensing-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter7/organization-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter7/orgservice-new" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter7/specialroutes-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter7/zuulsvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter8" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter8/confsvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter8/eurekasvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter8/licensing-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter8/organization-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter8/zuulsvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter9" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter9/confsvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter9/eurekasvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter9/licensing-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter9/organization-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter9/zipkinsvr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spmia-chapter9/zuulsvr" charset="UTF-8" />
+  </component>
+</project>

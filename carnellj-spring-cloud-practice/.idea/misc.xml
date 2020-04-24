@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spmia-chapter1/pom.xml" />
+        <option value="$PROJECT_DIR$/spmia-chapter2/pom.xml" />
+        <option value="$PROJECT_DIR$/spmia-chapter3/pom.xml" />
+        <option value="$PROJECT_DIR$/spmia-chapter4/pom.xml" />
+        <option value="$PROJECT_DIR$/spmia-chapter5/pom.xml" />
+        <option value="$PROJECT_DIR$/spmia-chapter6/pom.xml" />
+        <option value="$PROJECT_DIR$/spmia-chapter7/pom.xml" />
+        <option value="$PROJECT_DIR$/spmia-chapter8/pom.xml" />
+        <option value="$PROJECT_DIR$/spmia-chapter9/pom.xml" />
+        <option value="$PROJECT_DIR$/spmia-chapter10/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

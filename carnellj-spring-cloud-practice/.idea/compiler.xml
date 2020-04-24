@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="authentication-service (1)" />
+        <module name="authentication-service (2)" />
+        <module name="configurationserver (1)" />
+        <module name="configurationserver (2)" />
+        <module name="configurationserver (3)" />
+        <module name="configurationserver (4)" />
+        <module name="configurationserver (5)" />
+        <module name="configurationserver (6)" />
+        <module name="configurationserver (7)" />
+        <module name="configurationserver (8)" />
+        <module name="eurekasvr (1)" />
+        <module name="eurekasvr (2)" />
+        <module name="eurekasvr (3)" />
+        <module name="eurekasvr (4)" />
+        <module name="eurekasvr (5)" />
+        <module name="eurekasvr (6)" />
+        <module name="eurekasvr (7)" />
+        <module name="licensing-service (1)" />
+        <module name="licensing-service (2)" />
+        <module name="licensing-service (3)" />
+        <module name="licensing-service (4)" />
+        <module name="licensing-service (5)" />
+        <module name="licensing-service (6)" />
+        <module name="licensing-service (7)" />
+        <module name="licensing-service (8)" />
+        <module name="licensing-service (9)" />
+        <module name="mydemo" />
+        <module name="organization-service (1)" />
+        <module name="organization-service (2)" />
+        <module name="organization-service (3)" />
+        <module name="organization-service (4)" />
+        <module name="organization-service (5)" />
+        <module name="organization-service (6)" />
+        <module name="organization-service (7)" />
+        <module name="orgservice-new (1)" />
+        <module name="orgservice-new (2)" />
+        <module name="simple-service" />
+        <module name="specialroutesservice (1)" />
+        <module name="specialroutesservice (2)" />
+        <module name="zipkinsvr" />
+        <module name="zuulsvr (1)" />
+        <module name="zuulsvr (2)" />
+        <module name="zuulsvr (3)" />
+        <module name="zuulsvr (4)" />
+        <module name="zuulsvr (5)" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
